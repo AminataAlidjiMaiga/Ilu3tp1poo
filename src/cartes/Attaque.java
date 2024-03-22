@@ -7,7 +7,8 @@ public class Attaque extends Bataille {
 	};
 	
 	public String toString() {
-		switch (t) {
+		switch(super.getType())
+		{
 		case FEU:
 			return "FEU ROUGE";
 		case ESSENCE:

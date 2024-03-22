@@ -9,7 +9,7 @@ public class Botte extends Pobleme {
 	public String toString()
 	 {
 
-	 switch(t)
+	 switch(super.getType())
 	 {
 	 case FEU:
 	 return "VEHICULE PRIORITAIRE";

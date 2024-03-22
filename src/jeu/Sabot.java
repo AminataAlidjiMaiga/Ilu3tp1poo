@@ -64,7 +64,7 @@ public class Sabot implements Iterable<Carte>{
 	}
 	
 	///////////////////////
-	////////////CLASSE INTERNE Implémntant la classe itérable
+	////////////CLASSE INTERNE Implémentant la classe itérable
 	private class Iterateur implements Iterator<Carte>
 	{
 		private boolean nextEffectue = false;

@@ -7,7 +7,7 @@ public class Parade extends Bataille {
 		// TODO Auto-generated constructor stub
 	}
 	public String toString() {
-		switch (t) {
+		switch (super.getType()) {
 		case FEU:
 			return "FEU VERT";
 		case ESSENCE:
